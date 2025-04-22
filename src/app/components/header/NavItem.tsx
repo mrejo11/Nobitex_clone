@@ -13,11 +13,15 @@ import HelpMenu from "./menus/HelpMenu";
 
 export default function NavItem() {
   return (
-    <NavigationMenu dir="rtl" className="mx-5" viewport={false}>
+    <NavigationMenu
+      dir="rtl"
+      className="mx-5 relative z-[100]"
+      viewport={false}
+    >
       <NavigationMenuList className="flex items-center gap-6">
         <TransactionMenu />
         <PricesMenu />
-        <FeaturesMenu/>
+        <FeaturesMenu />
         <ServicesMenu />
         <HelpMenu />
       </NavigationMenuList>
