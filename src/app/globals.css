@@ -11,12 +11,12 @@
   src: url(/public/font/vazirmatn-fanum.woff2) format("woff");
  }
 
- @theme{
-  --font-primary:"vazir","sans-serif"
- }
-
+ 
  @theme{
   --font-secoundary:"vazir-fn","sans-serif"
+ }
+ @theme{
+  --font-primary:"vazir","sans-serif"
  }
 
  @theme{
