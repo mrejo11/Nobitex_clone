@@ -14,4 +14,4 @@
 🚧 این پروژه در حال توسعه است و با تکمیل هر بخش به‌روزرسانی می‌شود.
 
 ## پیش‌نمایش
-![Preview](img/Screenshot%202025-04-27%20183851.png)![Screenshot 2025-04-27 183851](https://github.com/user-attachments/assets/8fa9c849-5fa1-43ff-94bf-be56af0a1af1)
+![Preview][Screenshot 2025-04-27 183851](https://github.com/user-attachments/assets/8fa9c849-5fa1-43ff-94bf-be56af0a1af1)
