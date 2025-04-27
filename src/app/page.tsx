@@ -1,6 +1,8 @@
 import Header from "./components/header/Header";
 import Hero from "./components/herosection/Hero";
 import MainCurrentPricePage from "@/app/components/CurrentPrices-section/MainCurrentPricePage";
+import BannerSection from "./components/banner-section/BannerSection";
+import ProductAndServiceSection from "./components/product&services-section/ProductAndServiceSection";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Header />
       <Hero />
       <MainCurrentPricePage />
+      <BannerSection/>
+      <ProductAndServiceSection />
     </div>
   );
 }

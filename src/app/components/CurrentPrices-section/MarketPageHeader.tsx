@@ -1,9 +1,9 @@
-'use client';
-import { useState } from "react";
-import {ChevronLeft}  from 'lucide-react'
+"use client";
+import { ChevronLeft } from "lucide-react";
+import { useSelected } from "../contexs/SelectedContex";
 
 export default function MarketPageHeader() {
-  const [selected, setSelected] = useState<"toman" | "tether">("toman");
+  const { selected, setSelected } = useSelected();
 
   return (
     <div className="container mx-auto font-bold">
@@ -39,10 +39,12 @@ export default function MarketPageHeader() {
               تتر
             </button>
           </div>
-          <a href="#" className=
-          "flex items-center text-purple-500 font-secoundary hover:text-purple-800">
+          <a
+            href="#"
+            className="flex items-center text-purple-500 font-secoundary hover:text-purple-800"
+          >
             قیمت لحظه ای همه رمز ارز ها
-          <ChevronLeft className="mr-2"/>
+            <ChevronLeft className="mr-2" />
           </a>
         </div>
       </section>
