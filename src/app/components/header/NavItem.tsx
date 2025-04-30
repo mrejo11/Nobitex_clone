@@ -15,7 +15,7 @@ export default function NavItem() {
   return (
     <NavigationMenu
       dir="rtl"
-      className="mx-5 relative z-[100]"
+      className="mx-5 relative z-[90] bg-transparent"
       viewport={false}
     >
       <NavigationMenuList className="flex items-center gap-6">

@@ -31,7 +31,7 @@ const MenuLink = ({
     return (
       <Link
         href={href}
-        className="block p-3 rounded-md hover:bg-third transition-colors duration-150 text-right"
+        className="block p-3 rounded-md hover:bg-white/20 transition-colors duration-150 text-right"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -60,22 +60,43 @@ const MenuLink = ({
   }
 
   return (
-    <div className="relative group">
-      <button className="flex items-center gap-1 text-gray-700 hover:text-primary transition-colors">
-        {displayText}
-        <ChevronDown className="w-3 h-3 group-hover:rotate-180 transition-transform duration-150" />
+    <div
+      className="relative"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      <button className="w-full p-3 rounded-md bg-white/1 transition-colors duration-150 text-right">
+        <span className="text-gray-900 flex items-center justify-between">
+          {displayText}
+          {showArrow && <ChevronDown size={20} />}
+        </span>
       </button>
-      <div className="absolute top-full right-0 w-48 bg-white shadow-lg rounded-lg py-2 z-[100] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150">
-        {submenus?.map((submenu, index) => (
-          <Link
-            key={index}
-            href={submenu.href}
-            className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-primary transition-colors"
-          >
-            {submenu.title}
-          </Link>
-        ))}
-      </div>
+
+      {submenus && (
+        <AnimatePresence>
+          {isHovered && (
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 10 }}
+              transition={{ duration: 0.15 }}
+              className="absolute right-full top-0 bg-white/80 backdrop-blur-sm rounded-lg shadow-lg p-4 min-w-[200px]"
+            >
+              <div className="flex flex-col gap-2">
+                {submenus.map((submenu, index) => (
+                  <Link
+                    key={index}
+                    href={submenu.href}
+                    className="block p-3 rounded-md hover:bg-white/20 transition-colors duration-150 text-right"
+                  >
+                    {submenu.title}
+                  </Link>
+                ))}
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      )}
     </div>
   );
 };

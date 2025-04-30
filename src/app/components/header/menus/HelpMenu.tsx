@@ -18,7 +18,7 @@ const helpItems = [
 export default function HelpMenu() {
   return (
     <NavigationMenuItem>
-      <NavigationMenuTrigger className="font-medium text-base text-right">
+      <NavigationMenuTrigger className="font-medium text-base text-right bg-white/1">
         راهنما
       </NavigationMenuTrigger>
       <NavigationMenuContent className="bg-white rounded-lg shadow-lg p-4 min-w-[500px] -translate-x-[400px] "

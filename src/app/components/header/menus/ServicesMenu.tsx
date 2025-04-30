@@ -11,7 +11,7 @@ const services = ["نوبیتکس لبز", "نوبیتکس ونچرز", "آکا�
 export default function ServicesMenu() {
   return (
     <NavigationMenuItem>
-      <NavigationMenuTrigger className="font-medium text-base text-right">
+      <NavigationMenuTrigger className="font-medium text-base text-right bg-white/1">
         خدمات
       </NavigationMenuTrigger>
       <NavigationMenuContent

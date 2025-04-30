@@ -24,7 +24,7 @@ const features = [
 export default function FeaturesMenu() {
   return (
     <NavigationMenuItem>
-      <NavigationMenuTrigger className="font-medium text-base text-right">
+      <NavigationMenuTrigger className="font-medium text-base text-right bg-white/1">
         امکانات
       </NavigationMenuTrigger>
       <NavigationMenuContent
