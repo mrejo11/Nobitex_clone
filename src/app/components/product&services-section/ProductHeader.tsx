@@ -1,11 +1,10 @@
-import { MarketInfo } from "@/types/type";
 import { toPersianNumber } from "@/lib/utils";
 import { getDataProductSection } from "@/api/nobitex-api";
+import { TopGainerAndLoser } from "@/app/utils/TopGainer&Loser";
 // Configuration for API and display
 
-const ITEMS_TO_SHOW = 3;
 
-interface ChangeItem {
+export interface ChangeItem {
   name: string;
   change: number;
 }
@@ -35,33 +34,14 @@ const ChangeList: React.FC<ChangeListProps> = ({ title, items }) => (
   </div>
 );
 
-export default async function ProductHeader() {
-  const testdata = await getDataProductSection();
-  const show: MarketInfo = testdata.stats;
-
-  // Extract dayChanges and convert to number
-  const dayChanges = Object.entries(show)
-    .map(([key, item]) => ({
-      name: key.split("-")[0].toUpperCase(),
-      change: Number(item.dayChange),
-    }))
-    .filter((item) => !isNaN(item.change)); // Filter out invalid numbers
-
-  // Top absolute changes (sorted by absolute value)
-  const topAbsoluteChanges = dayChanges
-    .sort((a, b) => Math.abs(b.change) - Math.abs(a.change))
-    .slice(0, ITEMS_TO_SHOW);
-
-  // Top negative changes (sorted from most negative to least negative)
-  const topNegativeChanges = dayChanges
-    .filter((item) => item.change < 0)
-    .sort((a, b) => a.change - b.change)
-    .slice(0, ITEMS_TO_SHOW);
-
+export default async function ChangeMarket(){
+const data=await getDataProductSection();
+const {topGainer,topLoser}=TopGainerAndLoser(data.stats)
+console.log(TopGainerAndLoser(data.stats))
   return (
     <div className="container mx-auto p-4">
-      <ChangeList title="۳ تغییر بزرگ روزانه" items={topAbsoluteChanges} />
-      <ChangeList title="۳ افت بزرگ روزانه" items={topNegativeChanges} />
+      <ChangeList title=" بیشترین سود " items={topGainer} />
+      <ChangeList title="بیشترین ضرر " items={topLoser} />
       <div>product and service</div>
     </div>
   );
