@@ -1,22 +1,29 @@
 import { MarketInfo } from "@/types/type";
 import { ChangeItem } from "../components/product&services-section/ProductHeader";
-
+import { coinIcons } from "../components/data/marketData";
 const ITEMS_TO_SHOW = 3;
 export function TopGainerAndLoser(data: MarketInfo) {
   console.log("All pairs:", Object.keys(data));
 
   // Extract dayChanges and convert to number, only for RLS pairs
   const rlsPairs = Object.entries(data).filter(([key]) => key.endsWith("-rls"));
-//   console.log(
-//     "RLS pairs:",
-//     rlsPairs.map(([key]) => key)
-//   );
+  //   console.log(
+  //     "RLS pairs:",
+  //     rlsPairs.map(([key]) => key)
+  //   );
 
   const dayChanges: ChangeItem[] = rlsPairs
-    .map(([key, item]) => ({
-      name: key.split("-")[0].toUpperCase(),
-      change: Number(item.dayChange),
-    }))
+    .map(([key, item]) => {
+      const symbol = key.split("-")[0].toLowerCase();
+      const coinIcon = coinIcons[0].find(
+        (icon) => icon.symbol === symbol.toUpperCase()
+      );
+      return {
+        name: key.split("-")[0].toUpperCase(),
+        change: Number(item.dayChange),
+        icon_url: coinIcon?.icon_url,
+      };
+    })
     .filter((item) => !isNaN(item.change)); // Filter out invalid numbers
 
   // Top positive changes (sorted from highest to lowest)

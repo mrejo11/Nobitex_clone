@@ -16,8 +16,7 @@ export default async function getData() {
 export async function getDataProductSection() {
     try {
       const res = await fetch("https://api.nobitex.ir/market/stats", {
-        cache: "force-cache",
-        next: { revalidate: 60 }, 
+        cache: "no-store",
       });
       if (!res.ok) throw new Error("Failed to fetch data");
       const data = await res.json();

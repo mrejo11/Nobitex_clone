@@ -40,3 +40,1855 @@ export const marketData=[
       },
     ];
     
+    export const coinIcons=[
+      [
+        {
+          "symbol": null,
+          "en_name": "irt7,670,220,000",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/btc.020e655d.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt146,365,000",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/eth.a66b47c9.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt6,849,431",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/ltc.84c433e1.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt81,934",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/usdt.7ddba3a2.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt179,639",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/xrp.266fce8c.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt29,826,731",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/bch.d6ca9a0d.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt49,193,460",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/bnb.b84ae3d5.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt55,680",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/eos.8be7bbcb.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt22,297",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/xlm.e17fa3f5.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,357,052",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/etc.e242ea39.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt20,192",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/trx.e3b0beeb.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt14,120",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/doge.ccf0ca26.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt432,985",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/uni.ff1a7b37.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt82,500",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/dai.07282ac8.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,181,096",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/link.30bf8144.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt337,748",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/dot.15b5b99d.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt13,228,208",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/aave.d5c774cf.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt56,080",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/ada.cd0d553f.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,082",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/1000shib.321d64d5.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt0",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/ftm.927ce793.svg"
+        },
+        {
+          "symbol": "POL",
+          "en_name": "irt19,500",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/pol.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt202,315",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/axs.328c5c11.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt26,100",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/mana.f9381a30.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt23,850",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/sand.c3534cd4.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,730,999",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/avax.21065bb2.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt122,009,704",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/mkr.816d7e40.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt4,715",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/gmt.ea09c5f5.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt81,525",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/usdc.0c7b715c.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt11,951,201",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/sol.08bce1ef.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt354,142",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/atom.c53b0360.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt12,247",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/bat.514f735e.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt7,810",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/grt.5255e4c4.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt201,233",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/near.bd5f101c.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt43,314",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/ape.05108dbc.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt3,378",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/chz.20f52791.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt6,127,509",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/qnt.06832921.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt22,002,234",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/xmr.1ca6f862.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt0",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/busd.75addbfb.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt18,185",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/algo.ccca64f7.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt14,919",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/hbar.567a2771.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt451,562,039",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/yfi.3319f5b2.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt58,366",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/snx.ea8e9a38.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt6,955",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/enj.4f752f52.svg"
+        },
+        {
+          "symbol": 'crv',
+          "en_name": "irt56,868",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/crv.52addbe2.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt32,476",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/flow.7675e7ca.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt7,692,350,000",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/wbtc.631ae8ff.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt68,216",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/ldo.f833ddb2.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt227,969",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/fil.42605fe5.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt52,998",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/dydx.a7c8752f.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt435,572",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/apt.a163f162.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt95,689",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/mask.ec236a85.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt0",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/_next/static/media/flr.41639415.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt8,221",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/lrc.8de96fec.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt3,303,236",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/comp.ab782cbb.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt76,311",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/bal.5d492a46.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,469,999",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/ens.dcbd3941.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt54,023",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/sushi.5d434361.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt413,794",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/lpt.f01102cf.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt21,650",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/glm.108189bb.svg"
+        },
+        {
+          "symbol": 'media',
+          "en_name": "irt63,925",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/api3.f6b7e9b0.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,100",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/one.858359aa.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt0",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/dao.611cd4b8.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt9,502",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/cvc.2e37b439.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt752,469",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/nmr.83580ca7.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt24,998",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/storj.8392725b.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,823",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/snt.a17428fa.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt139",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/slp.95224bcd.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt22,475",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/zrx.c090d23f.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt45,825",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/imx.14adb5f5.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,375,448",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/egld.10906e5c.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt8,662",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/blur.c48838e4.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,470",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/t.afaede5b.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt843",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/celr.4ae4ff17.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt26,616",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/arb.6cd0d9bf.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt16,600",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/1inch.ee85b90d.svg"
+        },
+        {
+          "symbol": "100k_floki",
+          "en_name": "irt744,997",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/100k_floki.3febdabb.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt33,766",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/1m_nft.b57d46ec.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt57,351",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/1m_btt.d171f331.svg"
+        },
+        {
+          "symbol": "MAGIC",
+          "en_name": "irt17,598",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/magic.svg"
+        },
+        {
+          "symbol": "GMX",
+          "en_name": "irt1,166,069",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/gmx.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt261,194",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/ton.7bbdd5d5.svg"
+        },
+        {
+          "symbol": "BAND",
+          "en_name": "irt66,237",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/band.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt231,270",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/cvx.43f96d45.svg"
+        },
+        {
+          "symbol": "MDT",
+          "en_name": "irt2,498",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/mdt.047d5353.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt522,219",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/ssv.39066cef.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt94,499",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/wld.bb14a61c.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt0",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/omg.51196ed4.svg"
+        },
+        {
+          "symbol": "RDNT",
+          "en_name": "irt2,108",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/rdnt.svg"
+        },
+        {
+          "symbol": "JST",
+          "en_name": "irt2,994",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/jst.svg"
+        },
+        {
+          "symbol": "RENDER",
+          "en_name": "irt356,819",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/render.svg"
+        },
+        {
+          "symbol": "BICO",
+          "en_name": "irt10,870",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/bico.svg"
+        },
+        {
+          "symbol": "WOO",
+          "en_name": "irt6,150",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/woo.svg"
+        },
+        {
+          "symbol": "SKL",
+          "en_name": "irt1,924",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/skl.svg"
+        },
+        {
+          "symbol": "FET",
+          "en_name": "irt58,680",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/fet.svg"
+        },
+        {
+          "symbol": "NOT",
+          "en_name": "irt216",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/not.svg"
+        },
+        {
+          "symbol": "TRB",
+          "en_name": "irt2,476,503",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/trb.svg"
+        },
+        {
+          "symbol": "1M_PEPE",
+          "en_name": "irt727,000",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/1m_pepe.svg"
+        },
+        {
+          "symbol": "ETHFI",
+          "en_name": "irt48,145",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/ethfi.svg"
+        },
+        {
+          "symbol": "RSR",
+          "en_name": "irt727",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/rsr.svg"
+        },
+        {
+          "symbol": "AGLD",
+          "en_name": "irt77,090",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/agld.svg"
+        },
+        {
+          "symbol": "OM",
+          "en_name": "irt40,111",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/om.svg"
+        },
+        {
+          "symbol": "AEVO",
+          "en_name": "irt9,158",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/aevo.svg"
+        },
+        {
+          "symbol": "ZRO",
+          "en_name": "irt225,840",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/zro.svg"
+        },
+        {
+          "symbol": "UMA",
+          "en_name": "irt97,381",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/uma.svg"
+        },
+        {
+          "symbol": "MEME",
+          "en_name": "irt175",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/meme.svg"
+        },
+        {
+          "symbol": "DOGS",
+          "en_name": "irt13",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/dogs.svg"
+        },
+        {
+          "symbol": "G",
+          "en_name": "irt1,283",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/g.svg"
+        },
+        {
+          "symbol": "ONDO",
+          "en_name": "irt75,483",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/ondo.svg"
+        },
+        {
+          "symbol": "CATI",
+          "en_name": "irt9,435",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/cati.svg"
+        },
+        {
+          "symbol": "HMSTR",
+          "en_name": "irt213",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/hmstr.svg"
+        },
+        {
+          "symbol": "EIGEN",
+          "en_name": "irt75,878",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/eigen.svg"
+        },
+        {
+          "symbol": "PAXG",
+          "en_name": "irt271,244,205",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/paxg.svg"
+        },
+        {
+          "symbol": "XAUT",
+          "en_name": "irt270,188,700",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/xaut.svg"
+        },
+        {
+          "symbol": "ENA",
+          "en_name": "irt26,035",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/ena.svg"
+        },
+        {
+          "symbol": "PENDLE",
+          "en_name": "irt272,490",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/pendle.svg"
+        },
+        {
+          "symbol": "XTZ",
+          "en_name": "irt44,901",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/xtz.svg"
+        },
+        {
+          "symbol": "X",
+          "en_name": "irt6.41",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/x.svg"
+        },
+        {
+          "symbol": "ANKR",
+          "en_name": "irt1,642",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/ankr.svg"
+        },
+        {
+          "symbol": "JASMY",
+          "en_name": "irt1,340",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/jasmy.svg"
+        },
+        {
+          "symbol": "SUPER",
+          "en_name": "irt55,971",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/super.svg"
+        },
+        {
+          "symbol": "BNX",
+          "en_name": "irt0",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/bnx.svg"
+        },
+        {
+          "symbol": "CAKE",
+          "en_name": "irt167,887",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/cake.svg"
+        },
+        {
+          "symbol": "HOT",
+          "en_name": "irt85",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/hot.svg"
+        },
+        {
+          "symbol": "EDU",
+          "en_name": "irt12,000",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/edu.svg"
+        },
+        {
+          "symbol": "MAJOR",
+          "en_name": "irt15,171",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/major.svg"
+        },
+        {
+          "symbol": "SAFE",
+          "en_name": "irt41,776",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/safe.svg"
+        },
+        {
+          "symbol": "BANANA",
+          "en_name": "irt1,631,619",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/banana.svg"
+        },
+        {
+          "symbol": "W",
+          "en_name": "irt7,100",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/w.svg"
+        },
+        {
+          "symbol": "MOVE",
+          "en_name": "irt19,953",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/move.svg"
+        },
+        {
+          "symbol": "STRK",
+          "en_name": "irt12,215",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/strk.svg"
+        },
+        {
+          "symbol": "ZIL",
+          "en_name": "irt1,025",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/zil.svg"
+        },
+        {
+          "symbol": "METIS",
+          "en_name": "irt1,290,818",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/metis.svg"
+        },
+        {
+          "symbol": "COOKIE",
+          "en_name": "irt13,600",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/cookie.svg"
+        },
+        {
+          "symbol": "CGPT",
+          "en_name": "irt9,519",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/cgpt.svg"
+        },
+        {
+          "symbol": "TURBO",
+          "en_name": "irt363",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/turbo.svg"
+        },
+        {
+          "symbol": "S",
+          "en_name": "irt40,605",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/s.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt2,957,780",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/zec.dcf92c25.svg"
+        },
+        {
+          "symbol": "INJ",
+          "en_name": "irt781,785",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/inj.svg"
+        },
+        {
+          "symbol": "DEXE",
+          "en_name": "irt1,081,024",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/dexe.svg"
+        },
+        {
+          "symbol": "ATH",
+          "en_name": "irt2,507",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/ath.svg"
+        },
+        {
+          "symbol": "NEIRO",
+          "en_name": "irt18.83",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/neiro.svg"
+        },
+        {
+          "symbol": "1K_BONK",
+          "en_name": "irt1,570",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/1k_bonk.svg"
+        },
+        {
+          "symbol": "MORPHO",
+          "en_name": "irt97,835",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/morpho.svg"
+        },
+        {
+          "symbol": "1K_CAT",
+          "en_name": "irt600",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/1k_cat.svg"
+        },
+        {
+          "symbol": "FORM",
+          "en_name": "irt175,000",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/form.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt104,998",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/1b_babydoge.ffb8a5b1.svg"
+        },
+        {
+          "symbol": "BADGER",
+          "en_name": "irt92,531",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/badger.svg"
+        },
+        {
+          "symbol": "PERP",
+          "en_name": "irt27,746",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/perp.svg"
+        },
+        {
+          "symbol": "BNT",
+          "en_name": "irt38,702",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/bnt.svg"
+        },
+        {
+          "symbol": "ID",
+          "en_name": "irt17,427",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/id.svg"
+        },
+        {
+          "symbol": "KNC",
+          "en_name": "irt31,164",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/knc.svg"
+        },
+        {
+          "symbol": "YGG",
+          "en_name": "irt17,475",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/ygg.svg"
+        },
+        {
+          "symbol": "ALPHA",
+          "en_name": "irt2,687",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/alpha.svg"
+        },
+        {
+          "symbol": "AUCTION",
+          "en_name": "irt976,212",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/auction.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt7,670,220,000",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/btc.020e655d.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt146,365,000",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/eth.a66b47c9.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt6,849,431",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/ltc.84c433e1.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt81,934",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/usdt.7ddba3a2.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt179,639",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/xrp.266fce8c.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt29,826,731",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/bch.d6ca9a0d.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt49,193,460",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/bnb.b84ae3d5.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt55,680",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/eos.8be7bbcb.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt22,297",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/xlm.e17fa3f5.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,357,052",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/etc.e242ea39.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt20,192",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/trx.e3b0beeb.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt14,120",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/doge.ccf0ca26.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt432,985",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/uni.ff1a7b37.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt82,500",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/dai.07282ac8.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,181,096",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/link.30bf8144.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt337,748",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/dot.15b5b99d.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt13,228,208",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/aave.d5c774cf.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt56,080",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/ada.cd0d553f.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,082",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/1000shib.321d64d5.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt0",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/ftm.927ce793.svg"
+        },
+        {
+          "symbol": "POL",
+          "en_name": "irt19,500",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/pol.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt202,315",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/axs.328c5c11.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt26,100",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/mana.f9381a30.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt23,850",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/sand.c3534cd4.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,730,999",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/avax.21065bb2.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt122,009,704",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/mkr.816d7e40.svg"
+        },
+        {
+          "symbol": "GMT",
+          "en_name": "irt4,715",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/gmt.ea09c5f5.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt81,525",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/usdc.0c7b715c.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt11,951,201",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/sol.08bce1ef.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt354,142",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/atom.c53b0360.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt12,247",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/bat.514f735e.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt7,810",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/grt.5255e4c4.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt201,233",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/near.bd5f101c.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt43,314",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/ape.05108dbc.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt3,378",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/chz.20f52791.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt6,127,509",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/qnt.06832921.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt22,002,234",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/xmr.1ca6f862.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt0",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/busd.75addbfb.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt18,185",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/algo.ccca64f7.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt14,919",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/hbar.567a2771.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt451,562,039",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/yfi.3319f5b2.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt58,366",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/snx.ea8e9a38.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt6,955",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/enj.4f752f52.svg"
+        },
+        {
+          "symbol": "CRV",
+          "en_name": "irt56,868",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/crv.52addbe2.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt32,476",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/flow.7675e7ca.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt7,692,350,000",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/wbtc.631ae8ff.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt68,216",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/ldo.f833ddb2.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt227,969",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/fil.42605fe5.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt52,998",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/dydx.a7c8752f.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt435,572",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/apt.a163f162.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt95,689",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/mask.ec236a85.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt0",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/_next/static/media/flr.41639415.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt8,221",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/lrc.8de96fec.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt3,303,236",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/comp.ab782cbb.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt76,311",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/bal.5d492a46.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,469,999",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/ens.dcbd3941.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt54,023",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/sushi.5d434361.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt413,794",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/lpt.f01102cf.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt21,650",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/glm.108189bb.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt63,925",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/api3.f6b7e9b0.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,100",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/one.858359aa.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt0",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/dao.611cd4b8.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt9,502",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/cvc.2e37b439.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt752,469",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/nmr.83580ca7.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt24,998",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/storj.8392725b.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,823",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/snt.a17428fa.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt139",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/slp.95224bcd.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt22,475",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/zrx.c090d23f.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt45,825",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/imx.14adb5f5.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,375,448",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/egld.10906e5c.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt8,662",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/blur.c48838e4.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt1,470",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/t.afaede5b.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt843",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/celr.4ae4ff17.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt26,616",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/arb.6cd0d9bf.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt16,600",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/1inch.ee85b90d.svg"
+        },
+        {
+          "symbol": "100K_FLOKI",
+          "en_name": "irt744,997",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/100k_floki.3febdabb.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt33,766",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/1m_nft.b57d46ec.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt57,351",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/1m_btt.d171f331.svg"
+        },
+        {
+          "symbol": "MAGIC",
+          "en_name": "irt17,598",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/magic.svg"
+        },
+        {
+          "symbol": "GMX",
+          "en_name": "irt1,166,069",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/gmx.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt261,194",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/ton.7bbdd5d5.svg"
+        },
+        {
+          "symbol": "BAND",
+          "en_name": "irt66,237",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/band.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt231,270",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/cvx.43f96d45.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt2,498",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/mdt.047d5353.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt522,219",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/ssv.39066cef.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt94,499",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/wld.bb14a61c.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt0",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/omg.51196ed4.svg"
+        },
+        {
+          "symbol": "RDNT",
+          "en_name": "irt2,108",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/rdnt.svg"
+        },
+        {
+          "symbol": "JST",
+          "en_name": "irt2,994",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/jst.svg"
+        },
+        {
+          "symbol": "RENDER",
+          "en_name": "irt356,819",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/render.svg"
+        },
+        {
+          "symbol": "BICO",
+          "en_name": "irt10,870",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/bico.svg"
+        },
+        {
+          "symbol": "WOO",
+          "en_name": "irt6,150",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/woo.svg"
+        },
+        {
+          "symbol": "SKL",
+          "en_name": "irt1,924",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/skl.svg"
+        },
+        {
+          "symbol": "FET",
+          "en_name": "irt58,680",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/fet.svg"
+        },
+        {
+          "symbol": "NOT",
+          "en_name": "irt216",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/not.svg"
+        },
+        {
+          "symbol": "TRB",
+          "en_name": "irt2,476,503",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/trb.svg"
+        },
+        {
+          "symbol": "1M_PEPE",
+          "en_name": "irt727,000",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/1m_pepe.svg"
+        },
+        {
+          "symbol": "ETHFI",
+          "en_name": "irt48,145",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/ethfi.svg"
+        },
+        {
+          "symbol": "RSR",
+          "en_name": "irt727",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/rsr.svg"
+        },
+        {
+          "symbol": "AGLD",
+          "en_name": "irt77,090",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/agld.svg"
+        },
+        {
+          "symbol": "OM",
+          "en_name": "irt40,111",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/om.svg"
+        },
+        {
+          "symbol": "AEVO",
+          "en_name": "irt9,158",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/aevo.svg"
+        },
+        {
+          "symbol": "ZRO",
+          "en_name": "irt225,840",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/zro.svg"
+        },
+        {
+          "symbol": "UMA",
+          "en_name": "irt97,381",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/uma.svg"
+        },
+        {
+          "symbol": "MEME",
+          "en_name": "irt175",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/meme.svg"
+        },
+        {
+          "symbol": "DOGS",
+          "en_name": "irt13",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/dogs.svg"
+        },
+        {
+          "symbol": "G",
+          "en_name": "irt1,283",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/g.svg"
+        },
+        {
+          "symbol": "ONDO",
+          "en_name": "irt75,483",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/ondo.svg"
+        },
+        {
+          "symbol": "CATI",
+          "en_name": "irt9,435",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/cati.svg"
+        },
+        {
+          "symbol": "HMSTR",
+          "en_name": "irt213",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/hmstr.svg"
+        },
+        {
+          "symbol": "EIGEN",
+          "en_name": "irt75,878",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/eigen.svg"
+        },
+        {
+          "symbol": "PAXG",
+          "en_name": "irt271,244,205",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/paxg.svg"
+        },
+        {
+          "symbol": "XAUT",
+          "en_name": "irt270,188,700",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/xaut.svg"
+        },
+        {
+          "symbol": "ENA",
+          "en_name": "irt26,035",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/ena.svg"
+        },
+        {
+          "symbol": "PENDLE",
+          "en_name": "irt272,490",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/pendle.svg"
+        },
+        {
+          "symbol": "XTZ",
+          "en_name": "irt44,901",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/xtz.svg"
+        },
+        {
+          "symbol": "X",
+          "en_name": "irt6.41",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/x.svg"
+        },
+        {
+          "symbol": "ANKR",
+          "en_name": "irt1,642",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/ankr.svg"
+        },
+        {
+          "symbol": "JASMY",
+          "en_name": "irt1,340",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/jasmy.svg"
+        },
+        {
+          "symbol": "SUPER",
+          "en_name": "irt55,971",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/super.svg"
+        },
+        {
+          "symbol": "BNX",
+          "en_name": "irt0",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/bnx.svg"
+        },
+        {
+          "symbol": "CAKE",
+          "en_name": "irt167,887",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/cake.svg"
+        },
+        {
+          "symbol": "HOT",
+          "en_name": "irt85",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/hot.svg"
+        },
+        {
+          "symbol": "EDU",
+          "en_name": "irt12,000",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/edu.svg"
+        },
+        {
+          "symbol": "MAJOR",
+          "en_name": "irt15,171",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/major.svg"
+        },
+        {
+          "symbol": "SAFE",
+          "en_name": "irt41,776",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/safe.svg"
+        },
+        {
+          "symbol": "BANANA",
+          "en_name": "irt1,631,619",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/banana.svg"
+        },
+        {
+          "symbol": "W",
+          "en_name": "irt7,100",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/w.svg"
+        },
+        {
+          "symbol": "MOVE",
+          "en_name": "irt19,953",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/move.svg"
+        },
+        {
+          "symbol": "STRK",
+          "en_name": "irt12,215",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/strk.svg"
+        },
+        {
+          "symbol": "ZIL",
+          "en_name": "irt1,025",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/zil.svg"
+        },
+        {
+          "symbol": "METIS",
+          "en_name": "irt1,290,818",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/metis.svg"
+        },
+        {
+          "symbol": "COOKIE",
+          "en_name": "irt13,600",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/cookie.svg"
+        },
+        {
+          "symbol": "CGPT",
+          "en_name": "irt9,519",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/cgpt.svg"
+        },
+        {
+          "symbol": "TURBO",
+          "en_name": "irt363",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/turbo.svg"
+        },
+        {
+          "symbol": "S",
+          "en_name": "irt40,605",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/s.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt2,957,780",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/zec.dcf92c25.svg"
+        },
+        {
+          "symbol": "INJ",
+          "en_name": "irt781,785",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/inj.svg"
+        },
+        {
+          "symbol": "DEXE",
+          "en_name": "irt1,081,024",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/dexe.svg"
+        },
+        {
+          "symbol": "ATH",
+          "en_name": "irt2,507",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/ath.svg"
+        },
+        {
+          "symbol": "NEIRO",
+          "en_name": "irt18.83",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/neiro.svg"
+        },
+        {
+          "symbol": "1K_BONK",
+          "en_name": "irt1,570",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/1k_bonk.svg"
+        },
+        {
+          "symbol": "MORPHO",
+          "en_name": "irt97,835",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/morpho.svg"
+        },
+        {
+          "symbol": "1K_CAT",
+          "en_name": "irt600",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/1k_cat.svg"
+        },
+        {
+          "symbol": "FORM",
+          "en_name": "irt175,000",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/form.svg"
+        },
+        {
+          "symbol": null,
+          "en_name": "irt104,998",
+          "fa_name": null,
+          "icon_url": "https://nobitex.ir/_next/static/media/1b_babydoge.ffb8a5b1.svg"
+        },
+        {
+          "symbol": "BADGER",
+          "en_name": "irt92,531",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/badger.svg"
+        },
+        {
+          "symbol": "PERP",
+          "en_name": "irt27,746",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/perp.svg"
+        },
+        {
+          "symbol": "BNT",
+          "en_name": "irt38,702",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/bnt.svg"
+        },
+        {
+          "symbol": "ID",
+          "en_name": "irt17,427",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/id.svg"
+        },
+        {
+          "symbol": "KNC",
+          "en_name": "irt31,164",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/knc.svg"
+        },
+        {
+          "symbol": "YGG",
+          "en_name": "irt17,475",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/ygg.svg"
+        },
+        {
+          "symbol": "ALPHA",
+          "en_name": "irt2,687",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/alpha.svg"
+        },
+        {
+          "symbol": "AUCTION",
+          "en_name": "irt976,212",
+          "fa_name": "محاسبه نشده",
+          "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/auction.svg"
+        }
+      ]
+    ]

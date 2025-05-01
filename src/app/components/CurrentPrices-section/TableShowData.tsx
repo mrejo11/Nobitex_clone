@@ -8,6 +8,7 @@ import TableHeader from "./TableHeader";
 
 export default async function CurrentPriceTable() {
   const response = await getData();
+  console.log(response)
 
   return (
     <table className="container mx-auto">

@@ -1,3 +1,4 @@
+import ChangeMarket from "./ProductHeader";
 import ProductListShow from "./ProductListShow";
 
 const productList = [
@@ -29,7 +30,7 @@ export default function Productwindow() {
           <button className="bg-[#784ed1] rounded-md font-semibold hover:bg-[#664f94] text-white pb-2 py-1 px-6 cursor-pointer">خرید و فروش تعهدی</button>
         </div>
         <div>
-          
+        <ChangeMarket />
         </div>
       </div>
     </div>

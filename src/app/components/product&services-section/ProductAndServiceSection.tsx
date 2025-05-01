@@ -1,4 +1,3 @@
-import ProductHeader from "./ProductHeader";
 import Productwindow from "./Productwindow";
 
 export default function ProductAndServiceSection() {
@@ -10,7 +9,6 @@ export default function ProductAndServiceSection() {
       <h1 className="container mx-auto pt-16 text-4xl font-semibold">محصولات و خدمات</h1>
     <Productwindow />
     </div>
-      <ProductHeader />
     </>
   )
 }
