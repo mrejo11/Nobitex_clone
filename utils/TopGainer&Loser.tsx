@@ -1,6 +1,6 @@
 import { MarketInfo } from "@/types/type";
-import { ChangeItem } from "../components/product&services-section/ProductHeader";
-import { coinIcons } from "../components/data/marketData";
+import { ChangeItem } from "./changeList";
+import { coinIcons } from "../src/app/components/data/marketData";
 const ITEMS_TO_SHOW = 3;
 export function TopGainerAndLoser(data: MarketInfo) {
   console.log("All pairs:", Object.keys(data));

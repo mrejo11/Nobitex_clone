@@ -1291,7 +1291,7 @@ export const marketData=[
           "icon_url": "https://nobitex.ir/_next/static/media/comp.ab782cbb.svg"
         },
         {
-          "symbol": null,
+          "symbol": "BAL",
           "en_name": "irt76,311",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/bal.5d492a46.svg"
@@ -1375,7 +1375,7 @@ export const marketData=[
           "icon_url": "https://nobitex.ir/_next/static/media/zrx.c090d23f.svg"
         },
         {
-          "symbol": null,
+          "symbol": "IMX",
           "en_name": "irt45,825",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/imx.14adb5f5.svg"
