@@ -1,7 +1,7 @@
 import { MarketInfo } from "@/types/type";
 import Image from "next/image";
 import React from "react";
-import tetherData from "@/api/nobitex-api";
+import tetherData from "@/app/api/nobitex-api"
 import { toPersianNumber } from "@/lib/utils";
 import { marketData } from "../../data/marketData";
 import TableHeader from "./TableHeader";

@@ -14,7 +14,7 @@ interface ChangeListProps {
 }
 
 export const ChangeList: React.FC<ChangeListProps> = ({ title, items }) => (
-  <div className="bg-gray-50 w-[500] h-[300] mt-12 border border-gray-300 rounded-lg p-4 mb-4">
+  <div className="bg-gray-50 w-[450] h-[300] mt-12 border border-gray-300 rounded-lg p-4 mb-4">
     <h3 className="text-xl font-bold mb-4">{title}</h3>
     <div className="space-y-2">
       {items.map((item, index) => (

@@ -13,9 +13,10 @@ export default async function getData() {
     }
 }
 
+
 export async function getDataProductSection() {
     try {
-      const res = await fetch("https://api.nobitex.ir/market/stats", {
+      const res = await fetch("http://localhost:3000/api/market-stats", {
         cache: "no-store",
       });
       if (!res.ok) throw new Error("Failed to fetch data");
