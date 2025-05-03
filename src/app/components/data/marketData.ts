@@ -43,121 +43,121 @@ export const marketData=[
     export const coinIcons=[
       [
         {
-          "symbol": null,
+          "symbol": "BTC",
           "en_name": "irt7,670,220,000",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/btc.020e655d.svg"
         },
         {
-          "symbol": null,
+          "symbol": "ETH",
           "en_name": "irt146,365,000",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/eth.a66b47c9.svg"
         },
         {
-          "symbol": null,
+          "symbol": "LTC",
           "en_name": "irt6,849,431",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/ltc.84c433e1.svg"
         },
         {
-          "symbol": null,
+          "symbol": "USDT",
           "en_name": "irt81,934",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/usdt.7ddba3a2.svg"
         },
         {
-          "symbol": null,
+          "symbol": "XRP",
           "en_name": "irt179,639",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/xrp.266fce8c.svg"
         },
         {
-          "symbol": null,
+          "symbol": "BCH",
           "en_name": "irt29,826,731",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/bch.d6ca9a0d.svg"
         },
         {
-          "symbol": null,
+          "symbol": "BNB",
           "en_name": "irt49,193,460",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/bnb.b84ae3d5.svg"
         },
         {
-          "symbol": null,
+          "symbol": "EOS",
           "en_name": "irt55,680",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/eos.8be7bbcb.svg"
         },
         {
-          "symbol": null,
+          "symbol": "XLM",
           "en_name": "irt22,297",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/xlm.e17fa3f5.svg"
         },
         {
-          "symbol": null,
+          "symbol": "ETC",
           "en_name": "irt1,357,052",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/etc.e242ea39.svg"
         },
         {
-          "symbol": null,
+          "symbol": "TRX",
           "en_name": "irt20,192",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/trx.e3b0beeb.svg"
         },
         {
-          "symbol": null,
+          "symbol": "DOGE",
           "en_name": "irt14,120",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/doge.ccf0ca26.svg"
         },
         {
-          "symbol": null,
+          "symbol": "UNI",
           "en_name": "irt432,985",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/uni.ff1a7b37.svg"
         },
         {
-          "symbol": null,
+          "symbol": "DAI",
           "en_name": "irt82,500",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/dai.07282ac8.svg"
         },
         {
-          "symbol": null,
+          "symbol": "LINK",
           "en_name": "irt1,181,096",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/link.30bf8144.svg"
         },
         {
-          "symbol": null,
+          "symbol": "DOT",
           "en_name": "irt337,748",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/dot.15b5b99d.svg"
         },
         {
-          "symbol": null,
+          "symbol": "AAVE",
           "en_name": "irt13,228,208",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/aave.d5c774cf.svg"
         },
         {
-          "symbol": null,
+          "symbol": "ADA",
           "en_name": "irt56,080",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/ada.cd0d553f.svg"
         },
         {
-          "symbol": null,
+          "symbol": "1000SHIB",
           "en_name": "irt1,082",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/1000shib.321d64d5.svg"
         },
         {
-          "symbol": null,
+          "symbol": "FTM",
           "en_name": "irt0",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/ftm.927ce793.svg"
@@ -169,31 +169,31 @@ export const marketData=[
           "icon_url": "https://nobitex.ir/nobitex-cdn/crypto/pol.svg"
         },
         {
-          "symbol": null,
+          "symbol": "AXS",
           "en_name": "irt202,315",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/axs.328c5c11.svg"
         },
         {
-          "symbol": null,
+          "symbol": "MANA",
           "en_name": "irt26,100",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/mana.f9381a30.svg"
         },
         {
-          "symbol": null,
+          "symbol": "SAND",
           "en_name": "irt23,850",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/sand.c3534cd4.svg"
         },
         {
-          "symbol": null,
+          "symbol": "AVAX",
           "en_name": "irt1,730,999",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/avax.21065bb2.svg"
         },
         {
-          "symbol": null,
+          "symbol": "MKR",
           "en_name": "irt122,009,704",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/mkr.816d7e40.svg"
@@ -253,13 +253,13 @@ export const marketData=[
           "icon_url": "https://nobitex.ir/_next/static/media/chz.20f52791.svg"
         },
         {
-          "symbol": null,
+          "symbol": "QNT",
           "en_name": "irt6,127,509",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/qnt.06832921.svg"
         },
         {
-          "symbol": null,
+          "symbol": "XMR",
           "en_name": "irt22,002,234",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/xmr.1ca6f862.svg"
@@ -427,7 +427,7 @@ export const marketData=[
           "icon_url": "https://nobitex.ir/_next/static/media/nmr.83580ca7.svg"
         },
         {
-          "symbol": null,
+          "symbol": "STORJ",
           "en_name": "irt24,998",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/storj.8392725b.svg"
@@ -499,7 +499,7 @@ export const marketData=[
           "icon_url": "https://nobitex.ir/_next/static/media/100k_floki.3febdabb.svg"
         },
         {
-          "symbol": null,
+          "symbol": "1M_NFT",
           "en_name": "irt33,766",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/1m_nft.b57d46ec.svg"
@@ -1285,7 +1285,7 @@ export const marketData=[
           "icon_url": "https://nobitex.ir/_next/static/media/lrc.8de96fec.svg"
         },
         {
-          "symbol": null,
+          "symbol": "COMP",
           "en_name": "irt3,303,236",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/comp.ab782cbb.svg"
@@ -1357,7 +1357,7 @@ export const marketData=[
           "icon_url": "https://nobitex.ir/_next/static/media/storj.8392725b.svg"
         },
         {
-          "symbol": null,
+          "symbol": "SNT",
           "en_name": "irt1,823",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/snt.a17428fa.svg"
@@ -1399,7 +1399,7 @@ export const marketData=[
           "icon_url": "https://nobitex.ir/_next/static/media/t.afaede5b.svg"
         },
         {
-          "symbol": null,
+          "symbol": "CELR",
           "en_name": "irt843",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/celr.4ae4ff17.svg"
