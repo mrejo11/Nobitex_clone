@@ -1,3 +1,4 @@
+import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 
 const securityContent = [
@@ -53,9 +54,47 @@ const securityContent = [
   },
 ];
 
+
 export default function Security() {
+  const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(entry.target);
+        }
+      },
+      {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.1,
+      }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
+
   return (
-    <div className="container mx-auto py-24 px-4 max-w-6xl">
+    <div
+      ref={sectionRef}
+      className="container mx-auto py-24 px-4 max-w-6xl"
+      style={{
+        opacity: isVisible ? 1 : 0,
+        transform: isVisible ? "translateY(0)" : "translateY(20px)",
+        transition: "opacity 1s ease-in-out, transform 1s ease-in-out",
+      }}
+    >
       <div className="flex items-center justify-center">
         <h1 className="text-2xl font-semibold">امنیت در نوبیتکس</h1>
       </div>
@@ -63,11 +102,16 @@ export default function Security() {
         {securityContent.map((content, index) => (
           <div
             key={content.id}
-            className={`flex items-start p-6 transition-colors duration-200 ${
+            className={`flex items-start p-6 ${
               index >= 3
-                ? "border-t border-gray-200 hover:bg-linear-to-b from-purple-50 to-white"
-                : "hover:bg-linear-to-b from-white to-purple-50"
+                ? "border-t border-gray-200 hover:bg-gradient-to-b from-purple-50 to-white"
+                : "hover:bg-gradient-to-b from-white to-purple-50"
             } ${index === 2 ? "border-l-0" : ""}`}
+            style={{
+              opacity: isVisible ? 1 : 0,
+              transform: isVisible ? "translateY(0)" : "translateY(20px)",
+              transition: "opacity 1s ease-in-out, transform 1s ease-in-out",
+            }}
           >
             <div className="ml-4">
               <div className="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center">

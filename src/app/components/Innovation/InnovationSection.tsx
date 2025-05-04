@@ -1,5 +1,8 @@
+"use client"
+import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
-import Securiry from "./scurity";
+import dynamic from "next/dynamic";
+import AppDownload from "./AppDownload";
 const innovationContent = [
   {
     id: 1,
@@ -31,23 +34,69 @@ const innovationContent = [
   },
 ];
 
+// لیزی لود کردن کامپوننت Productwindow
+const Securiry = dynamic(() => import("./scurity"), {
+  loading: () => <div>در حال بارگذاری...</div>, // نمایش در حین بارگذاری
+  
+});
+
 export default function InnovationSection() {
+  const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef(null);
+  
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        // زمانی که المان در دید قرار گرفت، وضعیت نمایش را تغییر بده
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          // زمانی که المان دیده شد، دیگر نیازی به مشاهده نیست
+          observer.unobserve(entry.target);
+        }
+      },
+      {
+        // تنظیمات اینترسکشن آبزرور - المان وقتی ۲۰٪ آن وارد دید شود، تریگر شود
+        threshold: 0.2,
+        rootMargin: "0px 0px -100px 0px",
+      }
+    );
+    
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+    
+    // پاکسازی آبزرور هنگام آنمانت شدن کامپوننت
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
+
   return (
-    <div className="container mx-auto">
-      <div className="flex justify-center gap-6 mt-8">
-        {innovationContent.map((content) => {
+    <div className="container mx-auto" ref={sectionRef}>
+      <div className="flex  justify-center gap-6 mt-8">
+        {innovationContent.map((content, index) => {
           return (
             <div
               key={content.id}
-              className="flex flex-col items-center p-4 bg-white rounded-lg"
+              className={`flex flex-col items-center p-4 bg-white rounded-lg transition-all duration-700 ease-out transform 
+                ${isVisible 
+                  ? "opacity-100 translate-y-0" 
+                  : "opacity-0 translate-y-16"
+                }
+                ${isVisible ? `transition-delay-${index * 200}` : ""}`}
+              style={{ 
+                transitionDelay: isVisible ? `${index * 200}ms` : "0ms" 
+              }}
             >
-              <div className="border-[2px] border-indigo-200 rounded-lg p-2 py-4 bg-purple-50 w-[220px] h-[220px] flex items-center justify-center ">
+              <div className="border-[2px] border-indigo-200 rounded-lg p-2 py-4 bg-purple-50 w-[220px] h-[220px] flex items-center justify-center">
                 <Image
                   src={content.img}
                   alt={content.alt}
                   width={content.width}
                   height={content.width}
-                  className={`${content.scale}`} 
+                  className={`${content.scale || ""} transition-transform duration-500 ${isVisible ? "scale-100" : "scale-50"}`} 
                 />
               </div>
               <div className="text-center mt-8">
@@ -63,6 +112,7 @@ export default function InnovationSection() {
         })}
       </div>
       <Securiry />
+      <AppDownload />
     </div>
   );
 }
