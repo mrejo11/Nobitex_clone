@@ -505,7 +505,7 @@ export const marketData=[
           "icon_url": "https://nobitex.ir/_next/static/media/1m_nft.b57d46ec.svg"
         },
         {
-          "symbol": null,
+          "symbol": "1M_BBT",
           "en_name": "irt57,351",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/1m_btt.d171f331.svg"
@@ -1297,7 +1297,7 @@ export const marketData=[
           "icon_url": "https://nobitex.ir/_next/static/media/bal.5d492a46.svg"
         },
         {
-          "symbol": null,
+          "symbol": "ENS",
           "en_name": "irt1,469,999",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/ens.dcbd3941.svg"
