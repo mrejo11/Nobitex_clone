@@ -2,7 +2,6 @@
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
-import AppDownload from "./AppDownload";
 const innovationContent = [
   {
     id: 1,
@@ -40,6 +39,11 @@ const Securiry = dynamic(() => import("./scurity"), {
   
 });
 
+const AppDownload = dynamic(() => import("./AppDownload"), {
+  loading: () => <div>در حال بارگذاری...</div>, // نمایش در حین بارگذاری
+  
+});
+
 export default function InnovationSection() {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
@@ -60,15 +64,15 @@ export default function InnovationSection() {
         rootMargin: "0px 0px -100px 0px",
       }
     );
-    
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
+    const currentSection=sectionRef.current;
+    if (currentSection) {
+      observer.observe(currentSection);
     }
     
     // پاکسازی آبزرور هنگام آنمانت شدن کامپوننت
     return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
+      if (currentSection) {
+        observer.unobserve(currentSection);
       }
     };
   }, []);
