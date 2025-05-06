@@ -16,7 +16,7 @@ export default async function getData() {
 
 export async function getDataProductSection() {
     try {
-      const res = await fetch("https://nobitex-clone.netlify.app", {
+      const res = await fetch("https://nobitex-clone.netlify.app/api/market-stats", {
         cache: "force-cache",
       });
       if (!res.ok) throw new Error("Failed to fetch data");
