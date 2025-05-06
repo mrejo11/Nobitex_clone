@@ -355,7 +355,7 @@ export const marketData=[
           "icon_url": "https://nobitex.ir/_next/static/media/flr.41639415.svg"
         },
         {
-          "symbol": null,
+          "symbol": "LRC",
           "en_name": "irt8,221",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/lrc.8de96fec.svg"
@@ -1477,7 +1477,7 @@ export const marketData=[
           "icon_url": "https://nobitex.ir/_next/static/media/ssv.39066cef.svg"
         },
         {
-          "symbol": null,
+          "symbol": "WLD",
           "en_name": "irt94,499",
           "fa_name": null,
           "icon_url": "https://nobitex.ir/_next/static/media/wld.bb14a61c.svg"

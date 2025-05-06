@@ -4,7 +4,9 @@ import MainCurrentPricePage from "@/app/components/CurrentPrices-section/MainCur
 import BannerSection from "./components/banner-section/BannerSection";
 import ProductAndServiceSection from "./components/product&services-section/ProductAndServiceSection";
 import InnovationSection from "./components/Innovation/InnovationSection";
-
+import Register from "./components/register-section/Register";
+import FAQ from "./components/FAQ/FAQ";
+import Footer from "./components/footer/Footer";
 export default function Home() {
   return (
     <div>
@@ -14,6 +16,9 @@ export default function Home() {
       <BannerSection/>
       <ProductAndServiceSection />
       <InnovationSection />
+      <Register />
+      <FAQ />
+      <Footer />
     </div>
   );
 }

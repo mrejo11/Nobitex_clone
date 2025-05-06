@@ -3,7 +3,6 @@ import { ChangeItem } from "./changeList";
 import { coinIcons } from "../src/app/components/data/marketData";
 const ITEMS_TO_SHOW = 3;
 export function TopGainerAndLoser(data: MarketInfo) {
-  console.log("All pairs:", Object.keys(data));
 
   // Extract dayChanges and convert to number, only for RLS pairs
   const rlsPairs = Object.entries(data).filter(([key]) => key.endsWith("-rls"));
