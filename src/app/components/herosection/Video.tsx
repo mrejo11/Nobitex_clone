@@ -3,8 +3,6 @@ import { motion } from "framer-motion";
 
 
 export default function BackgroundVideo() {
-  // از آنجایی که Tailwind به صورت کلاس‌های CSS تعریف شده‌است، نیازی به تشخیص سایز صفحه در JavaScript نداریم
-  // کلاس‌های ریسپانسیو Tailwind این کار را به صورت خودکار انجام می‌دهند
 
   const textVariants = {
     hidden: { opacity: 0, y: 20 },
