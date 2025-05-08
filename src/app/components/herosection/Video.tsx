@@ -1,7 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
 
+
 export default function BackgroundVideo() {
+  // از آنجایی که Tailwind به صورت کلاس‌های CSS تعریف شده‌است، نیازی به تشخیص سایز صفحه در JavaScript نداریم
+  // کلاس‌های ریسپانسیو Tailwind این کار را به صورت خودکار انجام می‌دهند
+
   const textVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: {
@@ -15,7 +19,7 @@ export default function BackgroundVideo() {
   };
 
   return (
-    <div className="relative w-full h-[151px]">
+    <div className="relative w-full h-auto min-h-[200px] sm:min-h-[250px] lg:min-h-[150px]">
       <video
         src="/videos/BG_Dark.mp4"
         className="absolute inset-0 w-full h-full object-cover"
@@ -31,27 +35,33 @@ export default function BackgroundVideo() {
         initial="hidden"
         animate="visible"
         variants={textVariants}
-        className="absolute inset-0 flex items-center justify-center gap-44 z-10 font-secoundary"
+        className="absolute inset-0 z-10 p-4 sm:p-6 md:p-8"
       >
-        <div className="flex flex-col items-center space-y-4">
-          <h1 className="text-2xl text-white font-bold">۱ #</h1>
-          <h1 className="text-2xl text-white font-bold">
-            بزرگترین بازار رمز ارز
-          </h1>
-        </div>
-        <div className="flex flex-col items-center space-y-4">
-          <h1 className="text-2xl text-white font-bold">تا ۰.۰۶٪</h1>
-          <h1 className="text-2xl text-white font-bold">کمترین کارمزد</h1>
-        </div>
-        <div className="flex flex-col items-center space-y-4">
-          <h1 className="text-2xl text-white font-bold">+۳۰۰ میلیون معامله</h1>
-          <h1 className="text-2xl text-white font-bold">
-            بیشترین تعداد معاملات
-          </h1>
-        </div>
-        <div className="flex flex-col items-center space-y-4">
-          <h1 className="text-2xl text-white font-bold">+۱۰ میلیون نفر</h1>
-          <h1 className="text-2xl text-white font-bold">بیشترین کاربر</h1>
+        {/* استفاده از گرید ۲×۲ مشابه تصویر */}
+        <div className="w-full h-full grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 text-white font-secoundary">
+          {/* آیتم اول - سمت راست بالا */}
+          <div className="flex flex-col items-center justify-center">
+            <h1 className="text-base sm:text-xl md:text-2xl font-bold text-center mb-1 sm:mb-2">۱ #</h1>
+            <h2 className="text-sm sm:text-lg md:text-xl font-bold text-center">بزرگترین بازار رمز ارز</h2>
+          </div>
+          
+          {/* آیتم دوم - سمت چپ بالا */}
+          <div className="flex flex-col items-center justify-center">
+            <h1 className="text-base sm:text-xl md:text-2xl font-bold text-center mb-1 sm:mb-2">تا ۰.۰۶٪</h1>
+            <h2 className="text-sm sm:text-lg md:text-xl font-bold text-center">کمترین کارمزد</h2>
+          </div>
+          
+          {/* آیتم سوم - سمت راست پایین */}
+          <div className="flex flex-col items-center justify-center">
+            <h1 className="text-base sm:text-xl md:text-2xl font-bold text-center mb-1 sm:mb-2">+۳۰۰ میلیون معامله</h1>
+            <h2 className="text-sm sm:text-lg md:text-xl font-bold text-center">بیشترین تعداد معاملات</h2>
+          </div>
+          
+          {/* آیتم چهارم - سمت چپ پایین */}
+          <div className="flex flex-col items-center justify-center">
+            <h1 className="text-base sm:text-xl md:text-2xl font-bold text-center mb-1 sm:mb-2">+۱۰ میلیون نفر</h1>
+            <h2 className="text-sm sm:text-lg md:text-xl font-bold text-center">بیشترین کاربر</h2>
+          </div>
         </div>
       </motion.div>
     </div>

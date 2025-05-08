@@ -79,7 +79,7 @@ export default function InnovationSection() {
 
   return (
     <div className="container mx-auto" ref={sectionRef}>
-      <div className="flex  justify-center gap-6 mt-8">
+      <div className="flex flex-col md:flex-row justify-center gap-6 mt-8">
         {innovationContent.map((content, index) => {
           return (
             <div

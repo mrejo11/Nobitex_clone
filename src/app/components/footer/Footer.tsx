@@ -3,7 +3,7 @@ import { Phone, Youtube, Instagram, Linkedin } from "lucide-react";
 import Links from "./Links";
 export default function Footer() {
   return (
-    <div className="w-full h-[85vh] bg-[#4a3289] relative">
+    <div className="w-full  bg-[#4a3289] ">
       <div className="container mx-auto px-4">
         <div className="flex flex-col gap-4 w-full md:w-[10vw] mx-auto md:mx-0 items-center md:items-start py-8 pt-24">
           {/* logo */}

@@ -5,7 +5,7 @@ import GoogleLogo from "@/components/GoogleLogo";
 import BackgroundVideo from "./Video";
 import { motion } from "framer-motion";
 
-export default function Hero() {
+export default function ResponsiveHero() {
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -38,25 +38,25 @@ export default function Hero() {
   return (
     <div className="relative pb-10">
       <div
-        className="grid grid-cols-6 w-full h-[645px]"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 w-full h-auto lg:h-[645px]"
         style={{ background: "linear-gradient(to right, #E6D7FF, #FFF1D4)" }}
       >
         <motion.div
-          className="col-span-3 mt-24 mr-64"
+          className="col-span-1 md:col-span-2 lg:col-span-3 flex flex-col justify-center px-6 md:px-12 lg:px-24 py-12"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
         >
           <motion.h1
             variants={itemVariants}
-            className="text-6xl font-bold text-header font-secoundary leading-[80px]"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold text-header font-secoundary leading-snug md:leading-tight lg:leading-[80px]"
           >
             پیش آ بهار خوبی
             <br />
             تو اصل فصل هایی
           </motion.h1>
-          <motion.form variants={itemVariants} className="mt-8 space-y-4">
-            <div className="flex gap-2 w-24">
+          <motion.form variants={itemVariants} className="mt-6 md:mt-8 space-y-4">
+            <div className="flex flex-col sm:flex-row gap-2 w-full max-w-md">
               <input
                 type="text"
                 placeholder="شماره موبایل خود را وارد کنید"
@@ -66,7 +66,7 @@ export default function Hero() {
                 ثبت نام
               </GradientButton>
             </div>
-            <button className="w-100 flex items-center justify-center gap-2 bg-white text-gray-700 py-3 rounded-lg border border-gray-300 hover:bg-gray-50 transition-colors font-secoundary text-xl cursor-pointer">
+            <button className="w-full flex items-center justify-center gap-2 bg-white text-gray-700 py-3 rounded-lg border border-gray-300 hover:bg-gray-50 transition-colors font-secoundary text-lg sm:text-xl cursor-pointer max-w-md">
               <GoogleLogo />
               ثبت نام سریع با گوگل
             </button>
@@ -74,17 +74,19 @@ export default function Hero() {
         </motion.div>
 
         <motion.div
-          className="relative w-[30vw] h-[30vw] -translate-x-24"
+          className="col-span-1 md:col-span-2 lg:col-span-3 flex items-center justify-center px-6 md:px-12 lg:px-0 pt-8 lg:pt-0"
           variants={imageVariants}
           initial="hidden"
           animate="visible"
         >
-          <Image
-            src="/img/1404-holidays-mobile.webp"
-            alt="new_year_Logo"
-            fill
-            style={{ objectFit: "contain" }}
-          />
+          <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:w-[30vw] lg:h-[30vw]">
+            <Image
+              src="/img/1404-holidays-mobile.webp"
+              alt="new_year_Logo"
+              fill
+              style={{ objectFit: "contain" }}
+            />
+          </div>
         </motion.div>
       </div>
       <BackgroundVideo />
