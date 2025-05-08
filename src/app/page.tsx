@@ -7,14 +7,18 @@ import InnovationSection from "./components/Innovation/InnovationSection";
 import Register from "./components/register-section/Register";
 import FAQ from "./components/FAQ/FAQ";
 import Footer from "./components/footer/Footer";
+
 export default function Home() {
   return (
     <div>
       <Header />
       <Hero />
       <MainCurrentPricePage />
-      <BannerSection/>
-      <ProductAndServiceSection />
+      <BannerSection />
+      {/* این بخش روی موبایل مخفیه */}
+      <div className="hidden sm:block">
+        <ProductAndServiceSection />
+      </div>
       <InnovationSection />
       <Register />
       <FAQ />
