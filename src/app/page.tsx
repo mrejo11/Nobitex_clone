@@ -18,6 +18,7 @@ export default function Home() {
       {/* این بخش روی موبایل مخفیه */}
       <div className="hidden sm:block">
         <ProductAndServiceSection />
+        {/* <ProductAndServiceMobile /> */}
       </div>
       <InnovationSection />
       <Register />

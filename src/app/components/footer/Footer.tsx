@@ -71,7 +71,7 @@ export default function Footer() {
           <Linkedin className="bg-white rounded-2xl w-[40px]" />
         </div>
         <div className="w-full border-t border-gray-300 my-4"></div>
-        <div className="text-center text-xl text-white">
+        <div className="text-center text-xl text-white pb-4">
           این وب‌سایت یک پروژه آموزشی است و هیچ ارتباطی با نوبیتکس ندارد؛ تمامی
           حقوق و علائم تجاری متعلق به نوبیتکس محفوظ است.
         </div>
