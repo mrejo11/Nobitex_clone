@@ -1,3 +1,4 @@
+// "use client"
 import Header from "./components/header/Header";
 import Hero from "./components/herosection/Hero";
 import MainCurrentPricePage from "@/app/components/CurrentPrices-section/MainCurrentPricePage";
@@ -7,15 +8,36 @@ import InnovationSection from "./components/Innovation/InnovationSection";
 import Register from "./components/register-section/Register";
 import FAQ from "./components/FAQ/FAQ";
 import Footer from "./components/footer/Footer";
+// import { useEffect, useState } from "react";
+import MobileHeader from "../app/components/header/mobile-header/MobileHeader"
 
 export default function Home() {
+//   const[isMobile,setIsMobile]=useState(false)
+
+//   useEffect(()=>{
+//     const checkScreenSize=()=>{
+//       setIsMobile(window.innerWidth<640)
+//     };
+
+//     checkScreenSize()
+//     window.addEventListener("resize",checkScreenSize)
+//     return()=>{
+//       window.removeEventListener("resize",checkScreenSize)
+//     }
+//   },[])
+
   return (
     <div>
-      <Header />
+      <div className="hidden sm:block">
+  <Header />
+</div>
+<div className="block sm:hidden">
+  <MobileHeader />
+</div>
+
       <Hero />
       <MainCurrentPricePage />
       <BannerSection />
-      {/* این بخش روی موبایل مخفیه */}
       <div className="hidden sm:block">
         <ProductAndServiceSection />
         {/* <ProductAndServiceMobile /> */}

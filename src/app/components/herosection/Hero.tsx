@@ -36,7 +36,7 @@ export default function ResponsiveHero() {
   };
 
   return (
-    <div className="relative pb-10">
+    <div className="relative pb-10 ">
       <div
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 w-full h-auto lg:h-[645px]"
         style={{ background: "linear-gradient(to right, #E6D7FF, #FFF1D4)" }}
